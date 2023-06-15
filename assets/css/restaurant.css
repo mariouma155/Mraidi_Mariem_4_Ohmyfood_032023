@@ -360,6 +360,8 @@
 }
 .footer-block_link{
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 .section-menu_footer_icon {
     display: flex;
@@ -382,6 +384,7 @@
 @media all and (min-width:840px) {
     .section-menu_footer_logo {
         padding-right: 40px;
+        margin-bottom: 8px;
     }
 
     .section-menu_footer_liste {
