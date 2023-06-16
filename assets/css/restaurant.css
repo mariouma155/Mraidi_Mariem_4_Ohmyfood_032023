@@ -334,11 +334,10 @@
 
 .section-menu_footer_logo {
     margin: 0;
-    font-family: 'Shrikhand',
-     cursive;
+    font-family: 'Shrikhand',  cursive;
     font-size: 18px;
     font-weight: 400;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .section-menu_footer_block {
@@ -381,7 +380,7 @@
 
 /* media queries page des menus */
 
-@media all and (min-width:840px) {
+@media all and (min-width:900px) {
     .section-menu_footer_logo {
         padding-right: 40px;
         margin-bottom: 8px;
@@ -396,22 +395,21 @@
     }
 
     .section-menu_footer_link {
-        padding-left: 7px;
+        padding-left: 10px;
     }
 
     .footer-block_link {
         display: flex;
         padding-left: 40px;
     }
+    .footer-block_link:nth-child(2) {
+        padding-right:50px;
+    }
 
     .section-menu_footer_block {
         display: flex;
         justify-content: flex-end;
-        width: 80%;
+        width: 90%;
         padding-left: 15px;
-    }
-
-    .section-menu_footer {
-        height: auto;
     }
 }
