@@ -370,6 +370,10 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+.section-menu_footer_icon:hover {
+    text-decoration: underline;
+}
+
 
 .footer-menu_icon {
     margin-right: 11px;
